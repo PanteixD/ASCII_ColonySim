@@ -805,7 +805,7 @@ namespace DiscordRichPresence {
 
     void init() {
         // IMPORTANT: Replace with your own Client ID from the Discord Developer Portal!
-        const char* clientID = "1396157586906026145"; // <--- PUT YOUR CLIENT ID HERE
+        const char* clientID = ""; // <--- PUT YOUR CLIENT ID HERE
 
         auto result = discord::Core::Create(std::stoll(clientID), DiscordCreateFlags_NoRequireDiscord, &core);
         if (!core) {
